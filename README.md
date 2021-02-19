@@ -7,7 +7,7 @@
     ├── README.md                  <- The project layout (this file)
     ├── images                     <- This is where the images are located
     │
-    ├── notebook.ipynb             <- This is the main notebook 
+    ├── notebook.ipynb             <- This is the main notebook (contains the python code)
     │
     ├── presentation.pptx          <- Non-technical presentation
     │
