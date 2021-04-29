@@ -54,11 +54,11 @@ As seen above, the model achieved a 90% recall score for the malignant class, al
 
 ## Conclusion:
 
-A <a href='https://www.sciencedaily.com/releases/2018/05/180528190839.htm#:~:text=In%20level%20I%2C%20the%20dermatologists,CNN%20detected%2095%25%20of%20melanomas'>study</a> performed in 2018 asking 58 international dermatologists to classify 100 dermoscopic images as being benign or a melanoma (the most deadly of all skin cancers). The dermatologists detected 86.6% of melanomas on average, and 71.3% of benign moles. As seen in the results section, our best model achieved a 90% recall for the malignant class (compared to 86.6% in the study) and 79% for the benign class (compared to the 71.3% in the study). This is a promising result and can continue to improve with further hyperparameter tuning. 
+A <a href='https://www.sciencedaily.com/releases/2018/05/180528190839.htm#:~:text=In%20level%20I%2C%20the%20dermatologists,CNN%20detected%2095%25%20of%20melanomas'>study</a> performed in 2018 asked 58 international dermatologists to classify 100 dermoscopic images as being benign or a melanoma (the most deadly of all skin cancers). In that study, the dermatologists detected, on average, 86.6% of melanomas, and 71.3% of benign moles. As seen in the results section above, our best model achieved a 90% recall for the malignant class (compared to 86.6% in the study) and 79% for the benign class (compared to the 71.3% in the study). This is a promising result and can continue to improve with further hyperparameter tuning. 
 
 ## Recommendations:
 
-I recommend that this model is used to assist primary-care physicians and dermatologists, who constitute the front line in melanoma detection, in diagnosing malignant skin cancers. Due to the high recall/sensitivity scores in the malignant class, the probability of a false negative test is quite low. However, the model should not be used as the deciding factor in making a diagnosis. 
+We recommend that this model is used to assist primary-care physicians and dermatologists, who constitute the front line in melanoma detection, in diagnosing malignant skin cancers. Due to the high recall/sensitivity scores in the malignant class, the probability of a false negative test is quite low. However, the model should not be used as the deciding factor in making a diagnosis. 
 
 ## Future Work:
 
